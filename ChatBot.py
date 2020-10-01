@@ -9,7 +9,7 @@ ans = input()
 print('-' * 30)
 if 'y' in ans.lower():
     nick = input('What is your Nickname ?')
-    print('Nice to meet you ' + nick)
+    print('Hello,Nice to meet you ' + nick)
     print('-' * 30)
 else:
     nick = name
@@ -28,10 +28,10 @@ ans = input()
 
 topics = [
     'Twitter',
-    'Football',
+    'Cricket',
     'Python',
-    'JavaScript',
-    'Front-End Development',
+    'Flutter',
+    'Back-end Devlopment',
     'Games'
 ]
 
@@ -73,7 +73,7 @@ for i in range(0, random.randint(3,5)):
 
 goodbyes = [
     "Pleasure talking to you Mr." + nick + "I gotta go now",
-    "Ok I am bored now, I will go and watch some entertainment",
+    "Ok I am bored now, I will  watch  netflix",
     'Bye Bye, I gotta go now',
     'Yaaawn ...... I gotta go now',
     'Catch you later, ' + nick 
